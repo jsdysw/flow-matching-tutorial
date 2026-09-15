@@ -6,10 +6,10 @@ Learn flow matching through small, hands-on projects.
 
 [Code, setup, and results](01-2d-flow-matching/)
 
-Train a small velocity network on moons, eight Gaussians, and checkerboard data, then generate samples with Euler integration. Runs on CPU.
+Generate 2D points forming moons, eight Gaussians, and checkerboards with a small MLP velocity network and Euler sampling.
 
-## 02 · MNIST Flow Matching
+## 02 · Conditional MNIST Flow Matching
 
-[Code and setup](02-conditional-mnist/)
+[Code, setup, and results](02-conditional-mnist/)
 
-Generate selected digits 0–9 with a U-Net conditioned on time and class labels.
+Generate 28×28 grayscale images of handwritten digits (0–9) with a class-conditional U-Net velocity network and Euler sampling.
