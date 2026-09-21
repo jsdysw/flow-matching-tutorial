@@ -13,3 +13,9 @@ Generate 2D points forming moons, eight Gaussians, and checkerboards with a smal
 [Code, setup, and results](02-conditional-mnist/)
 
 Generate 28×28 grayscale images of handwritten digits (0–9) with a class-conditional U-Net velocity network and Euler sampling.
+
+## 03 · Conditional CIFAR-10 Flow Matching
+
+[Code and setup](03-conditional-cifar10/)
+
+Generate 32×32 RGB images of ten object classes with a class-conditional U-Net velocity network and Euler sampling. Full GPU training is pending.
